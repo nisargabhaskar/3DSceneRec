@@ -4,7 +4,6 @@ from pyntcloud import PyntCloud
 from PIL import Image
 from matplotlib import pyplot as plt
 import open3d as o3d
-#import pptk
 import argparse
 parser = argparse.ArgumentParser(description="Test a model on an image")
 parser.add_argument('--rgbimage', '-i', dest='image_path', help="The input image", default=None)
@@ -33,12 +32,7 @@ df[['red','green','blue']] = df[['red','green','blue']].astype(np.uint)
 cloud = PyntCloud(df)
 # Save the point cloud as .ply file to display it in meshlab.
 cloud.to_file("Ptcld.ply", also_save=["mesh","points"],as_text=True)
-#cloud.plot()
-#plt.imshow(cloud)
-#plt.show()
-#pptk.viewer(cloud)
 
 print("Testing IO for point cloud...")
 pcd=o3d.io.read_point_cloud("Ptcld.ply")
 o3d.visualization.draw_geometries([pcd])
-#print(pcd)
