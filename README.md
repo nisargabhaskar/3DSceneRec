@@ -11,8 +11,8 @@ Created a model for conversion of 2D RGB images to 3D point cloud  - 28/07/2022
 
 Screenshots
 As the saying goes, a picture is equal to a thousand words. 
-![Input](sampledata\input.png?raw=true "Input image")
-![Output](sampledata\output.png?raw=true "Output Point cloud")
+![Input](sampledata/input.png?raw=true "Input image")
+![Output](sampledata/output.png?raw=true "Output Point cloud")
 
 Library used
 * [MiDas](https://github.com/isl-org/MiDaS)
