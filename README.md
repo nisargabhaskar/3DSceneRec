@@ -1,9 +1,9 @@
-# 3DSceneRec - A Deeplearning model for scene genaration from 2D RGB images 
+# 3DSceneRec - A model for scene genaration from 2D RGB images 
 
 
 ## Description
 Project Title
-3DSceneRec - A Deeplearning model for scene genaration from 2D RGB images 
+3DSceneRec - A model for scene genaration from 2D RGB images 
 
 
 Build Status
